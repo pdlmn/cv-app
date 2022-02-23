@@ -7,7 +7,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header>
+      <header className="header">
         <h1>
           Reactive CV Creator
         </h1>
@@ -16,4 +16,4 @@ class Header extends Component {
   } 
 }
 
-export { Header }
+export default Header
