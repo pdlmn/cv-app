@@ -8,7 +8,7 @@ class EducationSection extends Component {
   render() {
     return (
       <section>
-        <h2>EducationSection</h2>
+        <h2>Education</h2>
         <div>
           <input type="text" name="qualification" id="qualification" />
           <label htmlFor="qualification">Title of qualification</label>

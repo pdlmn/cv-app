@@ -1,9 +1,9 @@
 import { Component } from 'react'
 import Header from './components/Header'
-import GeneralInfoSection from './GeneralInfo'
-import EducationSection from './EducationSection'
-import WorkSection from './WorkSection'
-import SkillSection from './SkillSection'
+import GeneralInfoSection from './components/GeneralInfoSection'
+import EducationSection from './components/EducationSection'
+import WorkSection from './components/WorkSection'
+import SkillSection from './components/SkillSection'
 
 class App extends Component {
   constructor(props) {

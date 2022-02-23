@@ -8,7 +8,7 @@ class WorkSection extends Component {
   render() {
     return(
       <section>
-        <h2>WorkSection experience</h2>
+        <h2>Work experience</h2>
         <div>
           <input type="text" name="title" id="title" />
           <label htmlFor="title">Occupation title</label>
