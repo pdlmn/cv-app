@@ -18,7 +18,7 @@ class WorkSection extends Component {
           <label htmlFor="employer">Employer</label>
         </div>
         <div>
-          <input type="date" name="from" id="from" />
+          <input type="date" name="workFrom" id="from" />
           <label htmlFor="from">From</label>
         </div>
         <div>

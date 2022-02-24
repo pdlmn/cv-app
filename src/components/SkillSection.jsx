@@ -11,7 +11,7 @@ class SkillSection extends Component {
         <h2>SkillSection</h2>
         <div>
           <input type="text" name="skill" id="skill" />
-          <label htmlFor="skill">SkillSection</label>
+          <label htmlFor="skill">Skill</label>
         </div>
         <div>
           <select>

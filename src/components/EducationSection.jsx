@@ -18,16 +18,16 @@ class EducationSection extends Component {
           <label htmlFor="school-name">University or Organisation name</label>
         </div>
         <div>
-          <input type="date" name="from" id="from" />
-          <label htmlFor="from">From</label>
+          <input type="date" name="from" id="education-from" />
+          <label htmlFor="education-from">From</label>
         </div>
         <div>
-          <input type="date" name="to" id="to" />
-          <label htmlFor="to">To</label>
+          <input type="date" name="to" id="education-to" />
+          <label htmlFor="education-to">To</label>
         </div>
         <div>
-          <input type="checkbox" name="ongoing" id="ongoing" />
-          <label htmlFor="ongoing">Ongoing</label>
+          <input type="checkbox" name="ongoing" id="education-ongoing" />
+          <label htmlFor="education-ongoing">Ongoing</label>
         </div>
       </section>
     )

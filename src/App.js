@@ -8,6 +8,36 @@ import SkillSection from './components/SkillSection'
 class App extends Component {
   constructor(props) {
     super(props)
+    this.state = {
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      education: [
+        {
+          qualification: "",
+          schoolName: "",
+          from: "",
+          to: "",
+          ongoing: false
+        }
+      ],
+      work: [
+        {
+          title: "",
+          employer: "",
+          from: "",
+          to: "",
+          ongoing: false
+        }
+      ],
+      skills: [
+        {
+          skill: "",
+          icon: ""
+        }
+      ]
+    }
   }
 
   render () {
