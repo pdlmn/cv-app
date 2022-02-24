@@ -1,9 +1,10 @@
 import { Component } from 'react'
 import Header from './components/Header'
-import GeneralInfoSection from './components/GeneralInfoSection'
-import EducationSection from './components/EducationSection'
-import WorkSection from './components/WorkSection'
-import SkillSection from './components/SkillSection'
+// import GeneralInfoSection from './components/GeneralInfoSection'
+// import EducationSection from './components/EducationSection'
+// import WorkSection from './components/WorkSection'
+// import SkillSection from './components/SkillSection'
+import CV from './components/CV'
 
 class App extends Component {
   constructor(props) {
@@ -44,16 +45,17 @@ class App extends Component {
     return (
       <>
         <Header/>
-        <form>
-          <fieldset>
-            <legend>CV Creator</legend>
-            <GeneralInfoSection />
-            <EducationSection />
-            <WorkSection />
-            <SkillSection />
-          </fieldset>
-        </form>
-        </>
+        {/* <form> */}
+        {/*   <fieldset> */}
+        {/*     <legend>CV Creator</legend> */}
+        {/*     <GeneralInfoSection /> */}
+        {/*     <EducationSection /> */}
+        {/*     <WorkSection /> */}
+        {/*     <SkillSection /> */}
+        {/*   </fieldset> */}
+        {/* </form> */}
+        <CV />
+      </>
     )
   }
 }

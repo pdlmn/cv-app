@@ -1,3 +1,10 @@
+:root {
+  --bg-color-1: rgb(50, 50, 50);
+  --bg-color-2: rgb(80, 80, 80);
+  --font-color-1: rgb(230, 230, 230);
+  --header-color-1: rgb(80, 150, 80);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,16 +12,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(50, 50, 50);
-  color: rgb(230, 230, 230);
+  background-color: var(--bg-color-1);
+  color: var(--font-color-1);
+}
+
+#root {
+  display: grid;
+  place-items: center;
 }
 
 .header {
   text-align: center;
-  background-color: rgb(80, 150, 80);
+  background-color: var(--header-color-1);
   padding: 30px;
+  place-self: stretch;
 }
 
 .header h1 {
   margin: 0;
 }
+
+
+.cv {
+  background-color: var(--bg-color-2);
+  width: 700px;
+  margin-top: 50px;
+  height: 700px;
+}
+
+.cv--header {
+  background-color: var(--header-color-1);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+.cv--name {
+  align-self: center;
+  font-size: 2.5rem;
+  max-width: 10ch;
+  margin: 0;
+  letter-spacing: 0.1rem;
+}
+
+.cv--info {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+  
+
+
+
+
+/* UTILS */
+.bold {
+  font-weight: bold;
+}
+
