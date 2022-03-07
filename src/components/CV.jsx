@@ -1,10 +1,7 @@
 import { Component } from 'react'
 
 class CV extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
+  render () {
     return (
       <article className="cv">
         <header className="cv--header">
@@ -32,7 +29,7 @@ class CV extends Component {
           <h2>Education</h2>
           <ul className="cv--experiences">
             <li className="cv--experience">
-              <div className="italic">
+              <div className="italic cv--date">
                 2008.08.15 - 2016.11.02
               </div>
               <div>
@@ -41,22 +38,46 @@ class CV extends Component {
               </div>
             </li>
             <li className="cv--experience">
-              <div className="italic">
+              <div className="italic cv--date">
                 2016.11.15 - 2017.04.09
               </div>
               <div>
                 <h3>Frontend bootcamp</h3>
-                <p>Frontend Junior Engineer</p>
+                <p>Junior Frontend Developer</p>
               </div>
             </li>
           </ul>
         </section>
         <section>
           <h2>Work experience</h2>
-          <ul>
-            <li>Worked at XXXCompany from 2019.01.01 to 2020.05.05 as Junior Software Engineer</li>
-            <li>Worked at YYYCorporation from 2020.05.05 to 2021.11.11 as Middle Software Engineer</li>
-            <li>Working at ZZZStartup from 2021 to present day as Senior Software Engineer</li>
+          <ul className="cv--experiences">
+            <li className="cv--experience">
+              <div className="italic cv--date">
+                2019.11.15 - 2020.05.14
+              </div>
+              <div>
+                <h3>ZYX Company</h3>
+                <p>Junior Frontend Developer</p>
+              </div>
+            </li>
+            <li className="cv--experience">
+              <div className="italic cv--date">
+                2020.05.14 - 2020.11.24
+              </div>
+              <div>
+                <h3>The IT Corporation</h3>
+                <p>Middle Software Engineer</p>
+              </div>
+            </li>
+            <li className="cv--experience">
+              <div className="italic cv--date">
+                2021.01.09 - Present day
+              </div>
+              <div>
+                <h3>Big Software Company</h3>
+                <p>Senior Fullstack Developer</p>
+              </div>
+            </li>
           </ul>
         </section>
       </article>

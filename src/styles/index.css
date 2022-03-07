@@ -71,6 +71,7 @@ body {
 
 .cv--experience {
   display: flex;
+  justify-content: flex-start;
   gap: 3rem;
 }
 
@@ -78,6 +79,10 @@ body {
 .cv--experience p {
   margin: 0;
 }
+
+.cv--date {
+    width: 200px;
+  }
 
 
 /* UTILS */
