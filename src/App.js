@@ -7,35 +7,35 @@ import Header from './components/Header'
 import CV from './components/CV'
 
 class App extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
+      firstName: '',
+      lastName: '',
+      email: '',
+      phone: '',
       education: [
         {
-          qualification: "",
-          schoolName: "",
-          from: "",
-          to: "",
+          qualification: '',
+          schoolName: '',
+          from: '',
+          to: '',
           ongoing: false
         }
       ],
       work: [
         {
-          title: "",
-          employer: "",
-          from: "",
-          to: "",
+          title: '',
+          employer: '',
+          from: '',
+          to: '',
           ongoing: false
         }
       ],
       skills: [
         {
-          skill: "",
-          icon: ""
+          skill: '',
+          icon: ''
         }
       ]
     }
@@ -44,15 +44,15 @@ class App extends Component {
   render () {
     return (
       <>
-        <Header/>
+        <Header />
         {/* <form> */}
-          {/*   <fieldset> */}
-          {/*     <legend>CV Creator</legend> */}
-          {/*     <GeneralInfoSection /> */}
-          {/*     <EducationSection /> */}
-          {/*     <WorkSection /> */}
-          {/*     <SkillSection /> */}
-          {/*   </fieldset> */}
+        {/*   <fieldset> */}
+        {/*     <legend>CV Creator</legend> */}
+        {/*     <GeneralInfoSection /> */}
+        {/*     <EducationSection /> */}
+        {/*     <WorkSection /> */}
+        {/*     <SkillSection /> */}
+        {/*   </fieldset> */}
         {/* </form> */}
         <CV />
       </>
@@ -60,4 +60,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

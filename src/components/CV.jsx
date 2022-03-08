@@ -3,20 +3,20 @@ import { Component } from 'react'
 class CV extends Component {
   render () {
     return (
-      <article className="cv">
-        <header className="cv--header">
-          <h1 className="cv--name">Jonathan Shmoe</h1>
-          <div className="cv--info">
+      <article className='cv'>
+        <header className='cv--header'>
+          <h1 className='cv--name'>Jonathan Shmoe</h1>
+          <div className='cv--info'>
             <div>
-              <div className="bold">Address:</div>
+              <div className='bold'>Address:</div>
               <div>01 Portlan Green Street</div>
             </div>
             <div>
-              <div className="bold">Phone:</div>
+              <div className='bold'>Phone:</div>
               <div>+1 123 432 21</div>
             </div>
             <div>
-              <div className="bold">Email:</div>
+              <div className='bold'>Email:</div>
               <div>01 Portlan Green Street</div>
             </div>
           </div>
@@ -27,9 +27,9 @@ class CV extends Component {
         </section>
         <section>
           <h2>Education</h2>
-          <ul className="cv--experiences">
-            <li className="cv--experience">
-              <div className="italic cv--date">
+          <ul className='cv--experiences'>
+            <li className='cv--experience'>
+              <div className='italic cv--date'>
                 2008.08.15 - 2016.11.02
               </div>
               <div>
@@ -37,8 +37,8 @@ class CV extends Component {
                 <p>Software Engineer</p>
               </div>
             </li>
-            <li className="cv--experience">
-              <div className="italic cv--date">
+            <li className='cv--experience'>
+              <div className='italic cv--date'>
                 2016.11.15 - 2017.04.09
               </div>
               <div>
@@ -50,9 +50,9 @@ class CV extends Component {
         </section>
         <section>
           <h2>Work experience</h2>
-          <ul className="cv--experiences">
-            <li className="cv--experience">
-              <div className="italic cv--date">
+          <ul className='cv--experiences'>
+            <li className='cv--experience'>
+              <div className='italic cv--date'>
                 2019.11.15 - 2020.05.14
               </div>
               <div>
@@ -60,8 +60,8 @@ class CV extends Component {
                 <p>Junior Frontend Developer</p>
               </div>
             </li>
-            <li className="cv--experience">
-              <div className="italic cv--date">
+            <li className='cv--experience'>
+              <div className='italic cv--date'>
                 2020.05.14 - 2020.11.24
               </div>
               <div>
@@ -69,8 +69,8 @@ class CV extends Component {
                 <p>Middle Software Engineer</p>
               </div>
             </li>
-            <li className="cv--experience">
-              <div className="italic cv--date">
+            <li className='cv--experience'>
+              <div className='italic cv--date'>
                 2021.01.09 - Present day
               </div>
               <div>
@@ -80,9 +80,7 @@ class CV extends Component {
             </li>
           </ul>
         </section>
-        <section>
-
-        </section>
+        <section />
       </article>
     )
   }
