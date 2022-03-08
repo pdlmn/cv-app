@@ -46,13 +46,13 @@ class App extends Component {
       <>
         <Header/>
         {/* <form> */}
-        {/*   <fieldset> */}
-        {/*     <legend>CV Creator</legend> */}
-        {/*     <GeneralInfoSection /> */}
-        {/*     <EducationSection /> */}
-        {/*     <WorkSection /> */}
-        {/*     <SkillSection /> */}
-        {/*   </fieldset> */}
+          {/*   <fieldset> */}
+          {/*     <legend>CV Creator</legend> */}
+          {/*     <GeneralInfoSection /> */}
+          {/*     <EducationSection /> */}
+          {/*     <WorkSection /> */}
+          {/*     <SkillSection /> */}
+          {/*   </fieldset> */}
         {/* </form> */}
         <CV />
       </>
