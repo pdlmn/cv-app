@@ -81,6 +81,7 @@ class CV extends Component {
           </ul>
         </section>
         <section>
+          <h2>Languages</h2>
 
         </section>
       </article>
