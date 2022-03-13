@@ -81,8 +81,34 @@ class CV extends Component {
           </ul>
         </section>
         <section>
+          <h2>Technologies</h2>
+          <ul className='cv--list'>
+            <li className='cv--list-item'>C</li>
+            <li className='cv--list-item'>Linux</li>
+            <li className='cv--list-item'>HTML/CSS</li>
+            <li className='cv--list-item'>Tailwind CSS</li>
+            <li className='cv--list-item'>Bootstrap</li>
+            <li className='cv--list-item'>JavaScript</li>
+            <li className='cv--list-item'>React</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Tools</h2>
+          <ul className='cv--list'>
+            <li className='cv--list-item'>VS Code</li>
+            <li className='cv--list-item'>Webpack</li>
+            <li className='cv--list-item'>Jira</li>
+            <li className='cv--list-item'>Microsoft Teams</li>
+            <li className='cv--list-item'>Git</li>
+          </ul>
+        </section>
+        <section>
           <h2>Languages</h2>
-
+          <ul className='cv--list'>
+            <li className='cv--list-item'>English - Native</li>
+            <li className='cv--list-item'>Russian - B1</li>
+            <li className='cv--list-item'>Mandarin - A1</li>
+          </ul>
         </section>
       </article>
     )
