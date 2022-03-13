@@ -80,7 +80,9 @@ class CV extends Component {
             </li>
           </ul>
         </section>
-        <section />
+        <section>
+
+        </section>
       </article>
     )
   }
